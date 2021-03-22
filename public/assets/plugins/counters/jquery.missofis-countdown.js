@@ -21,7 +21,7 @@
 	var PLUGIN_NAME = 'countdown',
 	    defaults = {
 
-			from: 500, // 3 minutes (3*60)
+			from: 180, // 3 minutes (3*60)
 			to: 0, // stop at zero
 			movingUnit: 1000, // 1000 for 1 second increment/decrements
 			timerEnd: undefined,
