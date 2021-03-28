@@ -31,9 +31,6 @@
 
 		{"i":"22","blocks":"","before":"1234_1256_1000","after":["0234_0156"],"instruction":"remove all blue remove orange add blue on orange"},
 		{"i":"23","blocks":"11222","before":"0010","after":["2220_1110","2202_1101","2022_1011","0222_0111"],"instruction":"remove blue add all orange add all blue on orange"},
-        {"i":"24","blocks":"","before":"1234_1256_1000","after":["0234_0156"],"instruction":"remove all blue remove orange add blue on orange"},
-        {"i":"25","blocks":"","before":"1234_1256_1000","after":["0234_0156"],"instruction":"remove all blue remove orange add blue on orange"},
-        {"i":"26","blocks":"","before":"1234_1256_1000","after":["0234_0156"],"instruction":"remove all blue remove orange add blue on orange"}
 	],
 	"extra_conf":[	
 		{"i":"3","blocks":"111222","before":"000","after":["111"],"instruction":"add blue blue blue"},
