@@ -817,7 +817,7 @@
 			}
 			getDataSomata();
 			randomTokensForWords();
-			loadTranslations();//Load translation
+			//loadTranslations();//Load translation
 			setVariables();//Store variables
 
 		}				
