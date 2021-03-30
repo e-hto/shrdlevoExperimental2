@@ -601,7 +601,7 @@
 			}else{
 				n++;
 				kb.innerHTML += '<button id="but'+i+'" style="width:40px;cursor:pointer;" onclick="printInstruction(\''+val+'\',1);">'+val+'</button>';
-				if(n>5){
+				if(n>4){
 					if(backspace==0){
 						kb.innerHTML += '<button id="butD" style="width:60px;cursor:pointer;" onclick="printInstruction(\'\',0);">Delete</button>';
 						backspace=1;
