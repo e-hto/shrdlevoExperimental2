@@ -7,8 +7,8 @@ function randomTokensForWords(){
 	if(tokens.indexOf(",")!= -1){
 		tokens = tokens.split(",");
 	}
-	for(var i=1;i<7;i++){
-		posible_tokens.push(tokens[i]);
+	for(var i=0;i<tokens.length;i++){
+		posible_tokens.push(i.toString());
 	}
 	
 	for(var i=1;i<words.length;i++){		
@@ -17,9 +17,11 @@ function randomTokensForWords(){
 		num_tokens = words[i].token.split(',').length;
 		for(var j=0;j<num_tokens;j++){
 			if(new_tokens!="")new_tokens+=",";
-			index = randomIntFromInterval(1,posible_tokens.length());		
+			var topSelection = randomIntFromInterval(5,19);
+			var botSelection = topSelection - 4;
+			index = randomIntFromInterval(botSelection,topSelection);		
 			new_tokens += posible_tokens[index];
-			posible_tokens.splice(index, 1);			
+			//posible_tokens.splice(index, 1);			
 		}	
 
 		words[i].token = new_tokens;
