@@ -31,6 +31,7 @@ var timeleft = TIME_LIMIT;
 var tokens = "";
 var words = [];
 var full_data = "";
+var keyboardTokens ="";
 
 //Colors to use for blocks
 var block_colors=[
