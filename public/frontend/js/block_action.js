@@ -595,7 +595,7 @@
 		var backspace = 0;
 		var kb = document.getElementById("keyboard");
 		for (var i = 0; i < 6; i++) {  //Changed tokens.length to 6
-			var val = keyboardTokens[i];
+			var val = tokens[i];
 			if(val==' '){
 				space=1;
 			}else{
